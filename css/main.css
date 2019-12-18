@@ -85,19 +85,39 @@ body a:hover {
   color: white;
 }
 .top-nav-collapse {
-  background: linear-gradient(45deg,#e20f2cc4,#f37306cc);
+  background-image: -webkit-linear-gradient(45deg, rgba(226,15,44,0.769), rgba(243,115,6,0.8));
+  background-image: linear-gradient(45deg, rgba(226,15,44,0.769), rgba(243,115,6,0.8));
+  background: #f44336e1;
 }
-.navbar-dark .collapse.show {
+.navbar-dark .show {
   background: rgba(0,0,0,0.8);
-}
-.navbar-col-show {
-  background-color: linear-gradient(45deg,#e20f2cc4,#f37306cc);
 }
 @media (max-width: 768px) {
   .navbar {
     font-size: 1rem;
     line-height: 2.5rem;
   }
+}
+@media (max-width: 920px) {
+  .logoflag .logo {
+    top: 15% !important;
+    width: 180px !important;
+  }
+}
+@media (max-width: 320px) {
+  .logoflag .logo {
+    width: 150px !important;
+  }
+}
+.logoflag .logo {
+  position: absolute;
+  transition: all 0.3s ease;
+  top: 7%;
+  width: 20%;
+  min-width: 150px;
+  max-width: 250px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .pagination a,
 .pagination .current {
