@@ -13,7 +13,7 @@ body a {
   color: #3c4858;
 }
 body a:hover {
-  color: #1abc9c;
+  color: #f30;
 }
 .hover-with-bg {
   display: inline-block;
@@ -76,6 +76,7 @@ body a:hover {
 }
 .navbar a:hover {
   background-color: rgba(0,0,0,0.1);
+  color: #fff;
 }
 .navbar-custom {
   color: white;
@@ -84,10 +85,10 @@ body a:hover {
   color: white;
 }
 .top-nav-collapse {
-  background-color: #2f4154;
+  background: linear-gradient(45deg,#e20f2cc4,#f37306cc);
 }
 .navbar-col-show {
-  background-color: #2f4154;
+  background-color: linear-gradient(45deg,#e20f2cc4,#f37306cc);
 }
 @media (max-width: 768px) {
   .navbar {
@@ -488,7 +489,7 @@ h6::before {
 }
 .tocbot-active-link {
   font-weight: 600;
-  color: #1abc9c;
+  color: #f30;
 }
 .tocbot-is-collapsible {
   max-height: 1000px;
@@ -557,5 +558,5 @@ h6::before {
   font-weight: 350;
 }
 .tagcloud a:hover {
-  color: #1abc9c !important;
+  color: #f30 !important;
 }
