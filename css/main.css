@@ -87,6 +87,9 @@ body a:hover {
 .top-nav-collapse {
   background: linear-gradient(45deg,#e20f2cc4,#f37306cc);
 }
+.navbar-dark .collapse.show {
+  background: rgba(0,0,0,0.8);
+}
 .navbar-col-show {
   background-color: linear-gradient(45deg,#e20f2cc4,#f37306cc);
 }
