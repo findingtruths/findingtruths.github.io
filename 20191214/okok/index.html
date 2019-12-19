@@ -42,6 +42,13 @@
                 <div class="logoflag" style="position:absolute; top:0; left:0;z-index:1;width: 100%;height: 100%;">
                     <img class="logo" src="/img/logo.png" alt="">
                 </div>
+                <script>
+                    (() => {
+                        if (location.pathname != '/') {
+                            document.querySelector('.logoflag').style.display = 'none';
+                        }
+                    })()
+                </script>
                 <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -103,7 +110,7 @@
   </div>
 </nav>
 
-                    <div class="view intro-2" id="background" style="background: url('/img/default.png')no-repeat center center;
+                    <div class="view intro-2" id="background" style="background: url('/img/post-bg.jpg')no-repeat center center;
            background-size: cover;
            background-attachment: scroll;
            filter: grayscale(.5);
@@ -204,6 +211,11 @@
 <!-- Comments -->
 <div class="col-lg-7 mx-auto nopadding-md">
   <div class="container comments mx-auto" id="comments">
+    
+      <br><br>
+      
+      
+
     
   </div>
 </div>
