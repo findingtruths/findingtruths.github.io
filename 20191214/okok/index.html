@@ -43,6 +43,7 @@
                     <img class="logo" src="/img/logo.png" alt="">
                 </div>
                 <script>
+                    // 判断根路径 location.pathname 来显示logo
                     (() => {
                         if (location.pathname != '/') {
                             document.querySelector('.logoflag').style.display = 'none';
